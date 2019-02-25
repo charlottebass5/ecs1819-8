@@ -1,0 +1,11 @@
+body { 
+    background-color: lightblue;
+    }
+    
+p1 {
+    text-align: center;
+}
+table, th, td, tr {
+    border: 1px solid black;
+}
+
