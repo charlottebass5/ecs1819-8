@@ -1,4 +1,40 @@
-.title {
+body {
+    background-color: #dadada!important;
+}
+
+.jumbotron {
+    font-family: Barlow;
     text-align: center;
-    
+}
+
+ul {
+    font-family: Barlow;
+}
+
+pre {
+    font-family: Barlow;
+}
+
+h3 {
+    font-family: Barlow;
+}
+h1 {
+    font-size: 1000%;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#jumbo {
+    font-size: 70px;
+}
+
+#facts {
+    text-align: center
+}
+
+#abtbutton {
+   justify-content: center;
 }
