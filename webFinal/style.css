@@ -1,5 +1,5 @@
 body {
-    background-color: #dadada!important;
+    background-color: #efeeeee!important;
 }
 
 .jumbotron {
@@ -37,4 +37,8 @@ img {
 
 #abtbutton {
    justify-content: center;
+}
+
+nav {
+    background-color:#f9a26c;
 }

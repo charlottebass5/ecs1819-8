@@ -7,9 +7,14 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Barlow|Signika" rel="stylesheet">
+ <script>
+      /*global $*/ (document).ready(function(){
+       $('[data-toggle="tooltip"]').tooltip();   
+      });
+    </script>
     </head>
-    <body>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <body> 
+        <nav class="navbar navbar-expand-sm navbar-dark">
             <a class="navbar-brand" href="index.html"> Home </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -27,13 +32,13 @@
                 </li>
             </ul>
         </nav>
-        <div class="jumbotron">
+        <div class="jumbotron" style="background-color:#f9a26c">
             <center>
             <h4 id="activityjumbo"> Activities </h4>
             </center>
         </div>
         <center>
-    <div id="demo" class="carousel slide" data-ride="carousel">
+    <div id="demo" class="carousel slide" data-ride="carousel" style="background-color:#9BD7D1">
 
        <ul class="carousel-indicators">
          <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -62,9 +67,9 @@
     </div>
     </center>
     <hr>
-    <center><h1>Significant Activities</h1></center>
+    <center><h1 style="background-color:#9BD7D1">Significant Activities</h1></center>
     <hr>
-     <div class="container-fluid">
+     <div class="container-fluid" style="background-color:#9BD7D1">
         <div class="row">
             <div class="col-lg-4">
                 <center>
@@ -86,7 +91,7 @@
         </div>
     </div>
     <hr>
-    <div class="container-fluid">
+    <div class="container-fluid" style="background-color:#325d79">
         <div class="row">
             <div class="col-lg-7">
                 <center>
@@ -97,6 +102,22 @@
                 <center>
                 <h3>North Avenue Beach</h3>
                 <p> Charlotte has done Junior Lifeguards at North Avenue Beach each summer for 6 years. This summer (2019), she will be a coach for the camp. The picture shown above was from her 5th year attending the camp.</p>
+                </center>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container-fluid" style="background-color:#325d79">
+        <div class="row">
+            <div class="col-lg-5">
+                <center>
+                <h3> Gymnastics </h3>
+                  <p> Charlotte did gymnastics for 8 years and was on the elite competition team at IK Gymnastics. She quit at age 12 because of an arm injury that caused her to fall behind on her training and lose her spot on the competition team. After, she did recreational acrobatics for around a year in her free time. </p>
+                </center>
+            </div>
+            <div class="col-lg-7">
+                <center>
+                <a href="#" data-toggle="tooltip" title="not gonna do myself dirty with a gymnastics pic"><img src="images2/cheer.jpg" alt="cheer"></a>
                 </center>
             </div>
         </div>
